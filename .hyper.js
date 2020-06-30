@@ -185,12 +185,12 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hypercwd',
-	'hyper-opacity',
-	'hyper-tab-icons',
+    'hyper-opacity',
+    'hyper-tab-icons',
     'hyperlinks',
     'hyperterm-summon',
     'hyper-alt-click',
-    'hyperfullscreen',
+//  'hyperfullscreen',
     'hyper-autohide-tabs',
     'hyper-pane',
     'git-falcon9',
