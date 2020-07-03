@@ -168,12 +168,6 @@ module.exports = {
 
     hypercwd: {
       initialWorkingDirectory: 'D:/Dev'
-    },
-
-    summon: {
-      hideDock: true,
-      hideOnBlur: true,
-      hotkey: 'Alt+Super+t',
     }
   },
 
@@ -195,7 +189,7 @@ module.exports = {
     'hyper-pane',
     'git-falcon9',
     'hyperterm-monokai',
-	'hyperborder'
+    'hyperborder'
   ],
 
   // in development, you can create a directory under
