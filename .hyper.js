@@ -165,10 +165,22 @@ module.exports = {
       inactivePaneOpacity: 0.6 // Set to 1 to disable inactive panes dimming
     },
 
+    gruvboxTheme: {
+      style: 'dark', // or 'light'
+      contrast: 'soft' // or 'normal', 'hard'
+    },
 
-    hypercwd: {
-      initialWorkingDirectory: 'D:/Dev'
+    summon: {
+      hideDock: true,
+      hideOnBlur: true,
+      hotkey: 'Alt+T',
     }
+
+
+//    hypercwd: {
+//      initialWorkingDirectory: ''
+//    }
+
   },
 
   // a list of plugins to fetch and install from npm
@@ -178,8 +190,8 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hypercwd',
-    'hyper-opacity',
+//    'hypercwd',
+//    'hyper-opacity',
     'hyper-tab-icons',
     'hyperlinks',
     'hyperterm-summon',
@@ -188,7 +200,7 @@ module.exports = {
     'hyper-autohide-tabs',
     'hyper-pane',
     'git-falcon9',
-    'hyperterm-monokai',
+    'hyperterm-gruvbox',
     'hyperborder'
   ],
 
